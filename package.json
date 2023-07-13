@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "googleapis": "^122.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "calendarscraper",
+  "description": "Handling time and date-based events sucks.  Calendars are complicated and change, daylight savings time comes and goes.  Originally, I was developing an app to schedule my spa heater around time-of-use (TOU) electric rates.  The TOU rates change with season, on weekends and holidays.  At first, I was using the cron daemon, but it was a real pain to make exceptions or change anything.",
+  "version": "1.0.0",
+  "main": "CalendarScraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
